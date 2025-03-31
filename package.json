@@ -1,16 +1,16 @@
 {
-"homepage": "https://mokariyaprit.github.io/Portfolio/",
+  "homepage": "https://BhuvaBhavesh.github.io/Bhavesh-portfolio",
   "name": "my-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+   "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
